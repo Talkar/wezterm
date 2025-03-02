@@ -29,12 +29,12 @@
 
     ~~~sh
     # on Linux
-    git clone https://github.com/sravioli/wezterm.git ~/.config/wezterm
+    git clone https://github.com/Talkar/wezterm.git ~/.config/wezterm
     ~~~
 
     ~~~powershell
     # on Windows
-    git clone https://github.com/sravioli/wezterm.git $env:HOME/.config/wezterm
+    git clone https://github.com/Talkar/wezterm.git $env:HOME/.config/wezterm
     ~~~
 
 3. **Done** 🎉.
