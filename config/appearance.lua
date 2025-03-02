@@ -7,7 +7,7 @@ local G = require("wezterm").GLOBAL
 local config = {}
 
 config.color_schemes = color.get_schemes()
-config.color_scheme = color.get_scheme()
+config.color_scheme = "catppuccin-mocha"
 
 local theme = config.color_schemes[config.color_scheme]
 

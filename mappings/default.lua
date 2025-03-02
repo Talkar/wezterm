@@ -49,12 +49,13 @@ local mappings = {
   },
 
   ---quick split and nav
-  { '<C-S-">', act.SplitHorizontal { domain = "CurrentPaneDomain" }, "vsplit" },
-  { "<C-S-%>", act.SplitVertical { domain = "CurrentPaneDomain" }, "hsplit" },
+  { '<C-S-h>', act.SplitHorizontal { domain = "CurrentPaneDomain" }, "vsplit" },
+  { "<C-S-j>", act.SplitVertical { domain = "CurrentPaneDomain" }, "hsplit" },
   { "<C-M-h>", act.ActivatePaneDirection "Left", "move left" },
   { "<C-M-j>", act.ActivatePaneDirection "Down", "mode down" },
   { "<C-M-k>", act.ActivatePaneDirection "Up", "move up" },
   { "<C-M-l>", act.ActivatePaneDirection "Right", "move right" },
+  { "<C-M-w>", act.CloseCurrentTab { confirm = true }},
 
   ---key tables
   { "<leader>h", act.ActivateKeyTable { name = "help_mode", one_shot = true }, "help" },
